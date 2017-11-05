@@ -1,0 +1,20 @@
+PLUGUIN JSON
+
+https://chrome.google.com/webstore/detail/json-handle/iahnhfdhidomcpggpaimmmahffihkfnj?utm_source=chrome-ntp-icon
+
+API Marvel
+
+https://developer.marvel.com/
+
+https://developer.marvel.com/documentation/authorization
+
+https://developer.marvel.com/docs
+
+
+MD5 - Maker
+
+http://www.md5.cz/
+
+SLIDER
+
+http://kenwheeler.github.io/slick/
