@@ -1,0 +1,29 @@
+<form action="server/send-form.php" id="contact-form" role="form" method="post" data-toggle="validator">
+                     <div class="row">
+                        <div class="col-sm-12 col-md-9 wow fadeInRight" data-wow-delay=".75s" data-wow-duration="1s">
+                           <div class="form-group has-error has-danger">
+                              <input placeholder="NOMBRE" type="text" class="form-control" name="name" id="name" data-error="Escribe tu nombre completo."
+                                 required>
+                              <div class="help-block with-errors"></div>
+                           </div>
+                           <div class="form-group">
+                              <input placeholder="CORREO" type="email" class="form-control" name="email" id="email" data-error="Lo sentimos, email no válido."
+                                 required>
+                              <div class="help-block with-errors"></div>
+                           </div>
+                           <div class="form-group">
+                              <input placeholder="TELÉFONO" type="number" pattern="[0-9.]*" class="form-control" name="phone" id="phone" maxlength="13"
+                                 data-error="Sólo acepta números." required>
+                              <div class="help-block with-errors"></div>
+                           </div>
+                           <div class="form-group">
+                              <textarea placeholder="MENSAJE" rows="4" class="form-control" name="message" id="message" data-error="¡Dejanos tus comentarios!"
+                                 required></textarea>
+                              <div class="help-block with-errors"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="form-group text-left wow fadeInRight" data-wow-delay=".85s" data-wow-duration="1s">
+                        <input class="btn" type="submit" value="ENVIAR">
+                     </div>
+                  </form>
